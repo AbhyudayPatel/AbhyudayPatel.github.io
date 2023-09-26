@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap');
+*{
+  font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #edeff3;
+}
+
+#c2 {
+  background-color: #6366f1;
+  color: white;
+}
+#c2:hover {
+  font-size: 1.2rem;
+}
+
+.classx:hover {
+  font-size: 1.4rem;
+}
+.recentproj{
+  cursor: pointer;
+}
+.offcanvas-title{
+  font-size: 2rem;
+  margin: auto;
+}

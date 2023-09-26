@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+    <style>
+      #list-example {
+        position: fixed;
+        width: 27%;
+      }
+      #list-item-4 {
+        font-size: 2.5rem;
+         
+        margin: 2rem 18rem;
+        color: #6366f1;
+      }
+      #list-item-5 {
+        font-size: 2.5rem;
+         
+        margin: 2rem 16rem;
+        color: #6366f1;
+      }
+      #list-item-3 {
+        font-size: 2.5rem;
+         
+        margin: 2rem 20rem;
+        color: #6366f1;
+      }
+      #list-item-2 {
+        font-size: 2.5rem;
+         
+        margin: 2rem 18rem;
+        color: #6366f1;
+      }
+      #list-item-6 {
+        font-size: 2.5rem;
+         
+        margin: 2rem 16rem;
+        color: #6366f1;
+      }
+      #list-item-1 {
+        font-size: 2.5rem;
+         
+        margin: 0rem 18rem 1rem;
+        color: #6366f1;
+      }
+      p {
+        font-size: larger;
+         
+      }
+      li {
+        font-size: larger;
+         
+      }
+      .containerh {
+        text-align: center;
+         
+        font-size: 4rem;
+        font-weight: 380;
+      }
+      img {
+        margin: 1rem 0rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="text-white body-font">
+      <div class="container mx-auto flex flex-wrap md:flex-row items-center">
+        <a
+          class="flex title-font my-3 font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-indigo-500 text-3xl">ProjectNest</span>
+        </a>
+        <nav class="md:ml-auto text-xl">
+          <button id="c3" class="classx mr-14 text-black">Home</button>
+          <button id="c1" class="classx mr-14 text-dark">About Us</button>
+          <button
+            class="classx btn-primary mr-14 text-dark"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            Categories
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                Categories
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="body1">
+                <div class="list-group">
+                  <a href="index.html" class="list-group-item list-group-item-action active" aria-current="true">
+                    Recent Projects
+                  </a>
+                  <a href="cat1.html" class="list-group-item list-group-item-action">Robotics</a>
+                  <a href="cat2.html" class="list-group-item list-group-item-action">Software</a>
+                  <a href="cat3.html" class="list-group-item list-group-item-action">Medical</a>
+                  <a href="cat4.html" class="list-group-item list-group-item-action">IoT</a>
+                  <a href="cat5.html" class="list-group-item list-group-item-action">Chemistry</a>
+                  <a href="cat6.html" class="list-group-item list-group-item-action">Researchs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" id="c2" class="btn btn-primary mx-8">
+            Login
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="containerh">Employee Management System</div>
+
+    <section>
+      <div class="row mt-7 ml-5 mr-8">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a
+              class="list-group-item list-group-item-action"
+              href="#list-item-1"
+              >Overview</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              href="#list-item-6"
+              >Tech Stack</a
+            >
+            
+            <a
+              class="list-group-item list-group-item-action"
+              href="#list-item-3"
+              >Code</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              href="#list-item-4"
+              >Summary</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              href="#list-item-5"
+              >Contributors</a
+            >
+          </div>
+        </div>
+        <div class="col-8">
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#list-example"
+            data-bs-smooth-scroll="true"
+            class="scrollspy-example"
+            tabindex="0"
+          >
+            <h4 id="list-item-1"></h4>
+            <p>
+                An Employee Management System (EMS) is a software application designed to efficiently handle various aspects of workforce management within an organization. Typically, an EMS enables businesses to streamline tasks related to employee information, including their personal details, work history, roles, and salaries.
+            </p>
+            <img src="img/proj2img.jpg" alt="img" />
+            <h4 id="list-item-6">Tech Stack</h4>
+
+            <li>Python</li>
+            <li>MY SQL</li>
+            <li>HTML</li>
+            <li>TAILWIND CSS</li>
+            <li>REACT JS</li>
+            <li>NODE JS</li>
+
+            
+            <h4 id="list-item-3">Code</h4>
+            <pre>
+              <code class="language-c">
+class Employee:
+    def __init__(self, emp_id, emp_name, emp_salary):
+        self.emp_id = emp_id
+        self.emp_name = emp_name
+        self.emp_salary = emp_salary
+
+class EmployeeManagementSystem:
+    def __init__(self):
+        self.employees = []
+
+    def add_employee(self, emp_id, emp_name, emp_salary):
+        employee = Employee(emp_id, emp_name, emp_salary)
+        self.employees.append(employee)
+        print(f"Employee {emp_name} added successfully.")
+
+    def remove_employee(self, emp_id):
+        for employee in self.employees:
+            if employee.emp_id == emp_id:
+                self.employees.remove(employee)
+                print(f"Employee {employee.emp_name} removed successfully.")
+                return
+        print(f"Employee with ID {emp_id} not found.")
+
+    def display_employees(self):
+        if not self.employees:
+            print("No employees in the system.")
+            return
+
+        print("Employee List:")
+        for employee in self.employees:
+            print(f"ID: {employee.emp_id}, Name: {employee.emp_name}, Salary: {employee.emp_salary}")
+
+def main():
+    emp_sys = EmployeeManagementSystem()
+
+    while True:
+        print("\nEmployee Management System Menu:")
+        print("1. Add Employee")
+        print("2. Remove Employee")
+        print("3. Display Employees")
+        print("4. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            emp_id = input("Enter Employee ID: ")
+            emp_name = input("Enter Employee Name: ")
+            emp_salary = input("Enter Employee Salary: ")
+            emp_sys.add_employee(emp_id, emp_name, emp_salary)
+
+        elif choice == "2":
+            emp_id = input("Enter Employee ID to remove: ")
+            emp_sys.remove_employee(emp_id)
+
+        elif choice == "3":
+            emp_sys.display_employees()
+
+        elif choice == "4":
+            print("Exiting Employee Management System.")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
+
+              </code>
+            </pre>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css"
+            />
+
+            <h2 id="list-item-4">Summary</h2>
+            <p>
+                An Employee Management System (EMS) is a software solution designed to streamline and automate various HR and employee-related tasks within an organization. It serves as a central hub for managing employee data, including personal information, job details, payroll, attendance, and performance records. EMS offers tools for HR professionals and managers to efficiently recruit, onboard, and track employee progress. It can also generate reports, facilitate communication between employees and management, and ensure compliance with labor laws and company policies. In essence, an EMS enhances organizational efficiency by providing a comprehensive platform for managing the entire employee lifecycle, from recruitment to retirement.
+            </p>
+            <h2 id="list-item-5">Contributors</h2>
+
+            <li>Rohan Kumar , B.Tech , (IIIT BANGALORE)</li>
+            <li>Suchita Rathore , B.Tech , (IIIT BANGALORE)</li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+        >
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          >
+          </a>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        ></div>
+      </div>
+      <div class="bg-gray-100">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        >
+          <span class="ml-3 text-indigo-500 text-xl"
+            >&copy ProjectNest 2023</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("c1").addEventListener("click", function () {
+        window.location.href = "about.html";
+      });
+      document.getElementById("c2").addEventListener("click", function () {
+        window.location.href = "login.html";
+      });
+      document.getElementById("c3").addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
+  </body>
+</html>
